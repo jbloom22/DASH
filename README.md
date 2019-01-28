@@ -1,3 +1,5 @@
-# DASH (distributed association scan hammer)
+# Secure multi-party linear regression at plaintext speed
 
-Secure multi-party linear regression at plaintext speed.
+Using an distributed association scan hammer (DASH).
+
+
