@@ -7,4 +7,6 @@ We detail a scheme for scalable, secure multi-party linear regression at essenti
 
 [R demo](https://github.com/jbloom22/DASH/blob/master/dash.r) of the distributed association scan hammer (DASH).
 
+Coming to [Hail](https://hail.is/about.html).
+
 Feedback welcome! Contact Jon: jbloom@broadinstitute.org
