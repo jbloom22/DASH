@@ -5,7 +5,7 @@ We detail a scheme for scalable, secure multi-party linear regression at essenti
 
 [arXiv preprint](https://arxiv.org/pdf/1901.09531.pdf).
 
-[R demo](https://github.com/jbloom22/DASH/blob/master/dash.r) of the distributed association scan hammer (DASH). Note that by compressing with `C_i^T` rather than `Q_i^T`, `R` need not be shared publically and covariates may be selected post-compression.
+[R demo](https://github.com/jbloom22/DASH/blob/master/dash.r) of the distributed association scan hammer (DASH). Note that by compressing directly with `C_i^T` rather than `Q_i^T`, the global `R` need not be shared publically and covariates may be selected post-compression.
 
 Coming to [Hail](https://hail.is/about.html) someday.
 
