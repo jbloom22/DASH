@@ -86,7 +86,7 @@ pval = 2 * pt(-abs(tstat), D)
 
 df = data.frame(beta=beta, sigma=sigma, tstat=tstat, pval=pval)
 
-# Verify correctness for the first M0 columns of $X$
+# Verify correctness for the first M0 columns of X:
 M0 = 5
 
 y = c(y1 ,y2, y3)
