@@ -27,7 +27,7 @@ y3 = rnorm(N3)
 X3 = matrix(rnorm(N3 * M), N3, M)
 C3 = matrix(rnorm(N3 * K), N3, K)
 
-### PRIVATE COMPUTE
+### PRIVATE COMPUTE compresses the data.
 # Alice computes and secret shares...
 yy1 = dot(y1)
 Xy1 = t(X1) %*% y1
@@ -58,7 +58,7 @@ CtX3 = t(C3) %*% X3
 
 R3 = qr.R(qr(C3))
 
-### SECURE MULTI-PARTY COMPUTE is independent of the sample sizes.
+### SECURE MULTI-PARTY COMPUTE is now independent of the sample sizes.
 D = N1 + N2 + N3 - K - 1
 
 yy = yy1 + yy2 + yy3
