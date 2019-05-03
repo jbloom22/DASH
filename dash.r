@@ -4,7 +4,8 @@ dot <- function(x){
   return(sum(x * x))
 }
 
-# Public
+### DATA
+# Public data
 K = 3
 M = 10000
 
@@ -26,6 +27,7 @@ y3 = rnorm(N3)
 X3 = matrix(rnorm(N3 * M), N3, M)
 C3 = matrix(rnorm(N3 * K), N3, K)
 
+### PRIVATE COMPUTE
 # Alice computes and secret shares...
 yy1 = dot(y1)
 Xy1 = t(X1) %*% y1
@@ -56,7 +58,7 @@ CtX3 = t(C3) %*% X3
 
 R3 = qr.R(qr(C3))
 
-# Secure multi-party computation is independent of sample sizes:
+### SECURE MULTI-PARTY COMPUTE is independent of the sample sizes.
 D = N1 + N2 + N3 - K - 1
 
 yy = yy1 + yy2 + yy3
@@ -79,14 +81,18 @@ yyq = yy - QtyQty
 Xyq = Xy - QtXQty
 XXq = XX - QtXQtX
 
+# The endpoints of secure computation are effect size and squared standard error.
 beta = Xyq / XXq
-sigma = sqrt((yyq / XXq - beta^2) / D)
+sigma_sq = (yyq / XXq - beta^2) / D
+
+# These determine the t statistic and p-value.
+sigma = sqrt(sigma_sq)
 tstat = beta / sigma
 pval = 2 * pt(-abs(tstat), D)
 
 df = data.frame(beta=beta, sigma=sigma, tstat=tstat, pval=pval)
 
-# Verify correctness for the first M0 columns of X:
+# VERIFY correctness for the first M0 columns of X:
 M0 = 5
 
 y = c(y1 ,y2, y3)
