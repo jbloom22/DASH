@@ -1,5 +1,5 @@
 # Secure multi-party linear regression at plaintext speed
-##### [Jonathan Bloom](https://www.broadinstitute.org/bios/jonathan-bloom)
+##### [Jonathan M. Bloom](https://www.broadinstitute.org/bios/jonathan-bloom)
 
 We detail distributed algorithms for scalable, secure multi-party linear regression and feature selection at essentially the same speed as plaintext regression. While the core geometric ideas are simple, the recognition of their broad utility when combined is novel. Our scheme opens the door to efficient and secure genome-wide association studies across multiple biobanks.
 
