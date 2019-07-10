@@ -7,4 +7,4 @@ We detail distributed algorithms for scalable, secure multi-party linear regress
 
 [Hail](https://hail.is/about.html) implements the single-party version and will implement the multi-party version some day.
 
-Feedback welcome! jbloom@broadinstitute.org
+Feedback welcome! Write Jon: jbloom@broadinstitute.org
