@@ -7,6 +7,6 @@ We detail distributed algorithms for scalable, secure multi-party linear regress
 
 [Hail](https://hail.is/about.html) uses the single-party version to enable [massive genomic analyses](http://www.nealelab.is/uk-biobank/) and will implement the multi-party version some day.
 
-Apply for the [RAAIS OpenMined Grant](https://blog.openmined.org/raais/) by July 19 to get paid for open-source developement, namely to add these algorithms to the core OpenMined code base.
+Apply for the [RAAIS OpenMined Grant](https://blog.openmined.org/raais/) by July 19 to get paid to add these algorithms to the core OpenMined code base.
 
 Feedback welcome! Write Jon: jbloom@broadinstitute.org
