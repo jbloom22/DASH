@@ -5,6 +5,8 @@ We detail distributed algorithms for scalable, secure multi-party linear regress
 
 [arXiv preprint](https://arxiv.org/abs/1901.09531) and [R demo](https://github.com/jbloom22/DASH/blob/master/dash.r) of the distributed association scan hammer (DASH).
 
-[Hail](https://hail.is/about.html) implements the single-party version and will implement the multi-party version some day.
+[Hail](https://hail.is/about.html) uses the single-party version to enable [massive genomic analyses](http://www.nealelab.is/uk-biobank/) and will implement the multi-party version some day.
+
+Apply for the [RAAIS OpenMined Grant](https://blog.openmined.org/raais/) by July 19 to get paid for open-source developement, namely to add these algorithms to the core OpenMined code base.
 
 Feedback welcome! Write Jon: jbloom@broadinstitute.org
