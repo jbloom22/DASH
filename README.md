@@ -1,6 +1,7 @@
 # Secure multi-party linear regression at plaintext speed
-##### [Jonathan M. Bloom](https://www.broadinstitute.org/bios/jonathan-bloom), [Hail Team](hail.is), [Neale Lab](http://www.nealelab.is), [Stanley Center for Psychiatric Research](https://www.broadinstitute.org/stanley)
-##### Broad Institute of MIT and Harvard](https://www.broadinstitute.org/about-us)
+##### [Jonathan M. Bloom](https://www.broadinstitute.org/bios/jonathan-bloom)
+##### [Hail Team](hail.is), [Neale Lab](http://www.nealelab.is), [Stanley Center for Psychiatric Research](https://www.broadinstitute.org/stanley)
+##### [Broad Institute of MIT and Harvard](https://www.broadinstitute.org/about-us)
 
 We detail distributed algorithms for scalable, secure multi-party linear regression and feature selection at essentially the same speed as plaintext regression. While the core geometric ideas are simple, their broad utility in combination is novel. Our scheme opens the door to efficient and secure genome-wide association studies across multiple biobanks.
 
