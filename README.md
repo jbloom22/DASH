@@ -5,7 +5,7 @@ We detail distributed algorithms for scalable, secure multi-party linear regress
 
 Read the [arXiv preprint](https://arxiv.org/abs/1901.09531).
 
-Run a [Python demo](https://github.com/jbloom22/DASH/blob/master/secure_linear_regression.ipynb) of the multi-party linear regression algorithm in Section 2.
+Run a [Python demo](https://github.com/jbloom22/DASH/blob/master/multiparty_linear_regression.ipynb) of the multi-party linear regression algorithm in Section 2.
 
 Run a [Python demo](https://github.com/jbloom22/DASH/blob/master/dash.ipynb) and [R demo](https://github.com/jbloom22/DASH/blob/master/dash.r) of the distributed association scan hammer (DASH) in Section 4.
 
