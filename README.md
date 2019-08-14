@@ -3,7 +3,7 @@
 
 We detail distributed algorithms for scalable, secure multi-party linear regression and feature selection at essentially the same speed as plaintext regression. While the core geometric ideas are simple, their broad utility in combination is novel. Our scheme opens the door to efficient and secure genome-wide association studies across multiple biobanks.
 
-[arXiv preprint](https://arxiv.org/abs/1901.09531)
+[arXiv preprint](https://arxiv.org/abs/1901.09531).
 
 [Python demo](https://github.com/jbloom22/DASH/blob/master/secure_linear_regression.ipynb) of secure multi-party linear regression in Section 2.
 
