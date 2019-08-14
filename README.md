@@ -7,10 +7,10 @@ We detail distributed algorithms for scalable, secure multi-party linear regress
 
 [Python demo](https://github.com/jbloom22/DASH/blob/master/secure_linear_regression.ipynb) of secure multi-party linear regression in Section 2.
 
-[Python demo](https://github.com/jbloom22/DASH/blob/master/dash.ipynb) and [R demos](https://github.com/jbloom22/DASH/blob/master/dash.r) of the distributed association scan hammer (DASH) in Section 4.
+[Python demo](https://github.com/jbloom22/DASH/blob/master/dash.ipynb) and [R demo](https://github.com/jbloom22/DASH/blob/master/dash.r) of the distributed association scan hammer (DASH) in Section 4.
 
 [Hail](https://hail.is/about.html) uses the single-party distributed algorithm to enable [massive genomic analyses](http://www.nealelab.is/uk-biobank/) and will include multi-party algorithms someday. Also check out the exciting work on secure genomics by [Hoon Cho](https://hhcho.com/) and colleagues.
 
-**Apply by July 26** for an [RAAIS OpenMined Grant](https://blog.openmined.org/raais/) to add these algorithms to the core OpenMined code base.
+Implementation in the core OpenMined code base is being supported by an [RAAIS OpenMined Grant](https://blog.openmined.org/raais/).
 
 Feedback welcome! Write Jon: jbloom@broadinstitute.org
