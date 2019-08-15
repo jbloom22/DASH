@@ -9,7 +9,7 @@ Run a [Python demo](https://github.com/jbloom22/DASH/blob/master/multiparty_line
 
 Run a [Python demo](https://github.com/jbloom22/DASH/blob/master/dash.ipynb) and [R demo](https://github.com/jbloom22/DASH/blob/master/dash.r) of the distributed association scan hammer (DASH) in Section 4.
 
-[Hail](https://hail.is/about.html) uses the single-party distributed algorithm to enable [massive genomic analyses](http://www.nealelab.is/uk-biobank/) and will include multi-party algorithms someday. Also check out the exciting work on secure genomics by [Hoon Cho](https://hhcho.com/) and colleagues.
+[Hail](https://hail.is/about.html) uses the single-party distributed algorithm in Section 3 to enable [massive genomic analyses](http://www.nealelab.is/uk-biobank/) and will include multi-party algorithms someday. Also check out the exciting work on secure genomics by [Hoon Cho](https://hhcho.com/) and colleagues.
 
 An [OpenMined](https://www.openmined.org/) implementation is being supported by an [RAAIS OpenMined Grant](https://blog.openmined.org/raais/), awarded to [André Ferias](https://github.com/andrelmfarias).
 
