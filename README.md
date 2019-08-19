@@ -11,6 +11,6 @@ Run a [Python demo](https://github.com/jbloom22/DASH/blob/master/dash.ipynb) and
 
 [Hail](https://hail.is/about.html) uses the single-party distributed algorithm in Section 3 to enable [massive genomic analyses](http://www.nealelab.is/uk-biobank/) and will include multi-party algorithms someday. Also check out the exciting work on secure genomics by [Hoon Cho](https://hhcho.com/) and colleagues.
 
-An [OpenMined](https://www.openmined.org/) implementation is being supported by an [RAAIS OpenMined Grant](https://blog.openmined.org/raais/), awarded to [André Ferias](https://github.com/andrelmfarias).
+An [OpenMined](https://www.openmined.org/) implementation is being supported by an [RAAIS OpenMined Grant](https://blog.openmined.org/raais/), awarded to [André Farias](https://github.com/andrelmfarias).
 
 Feedback welcome! Write Jon: jbloom@broadinstitute.org
