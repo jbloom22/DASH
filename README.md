@@ -3,7 +3,7 @@
 
 We detail distributed algorithms for scalable, secure multi-party linear regression and feature selection at essentially the same speed as plaintext regression. While the core geometric ideas are simple, their utility in combination for feature selection appears to be novel. Our scheme opens the door to efficient and secure genome-wide association studies across multiple biobanks.
 
-Read the [arXiv note](https://arxiv.org/abs/1901.09531) and watch the [primer](https://www.youtube.com/watch?v=O3NxvLC-5s4&list=PLlMMtlgw6qNjROoMNTBQjAcdx53kV50cS) at [Models, Inference & Algorithms](broadinstitute.org/mia) at the Broad Institute.
+Read the [arXiv note](https://arxiv.org/abs/1901.09531) and watch a [video primer](https://www.youtube.com/watch?v=O3NxvLC-5s4&list=PLlMMtlgw6qNjROoMNTBQjAcdx53kV50cS) presented at [Models, Inference & Algorithms](broadinstitute.org/mia) at the Broad Institute.
 
 We recently found that the approach to SMC linear regression in Section 2 has been explored since at least 2005, c.f. [Secure Regression on Distributed Databases](http://www2.stat.duke.edu/~jerry/Papers/jcgs05.pdf).
 
