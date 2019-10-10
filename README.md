@@ -5,7 +5,7 @@ We detail distributed algorithms for scalable, secure multi-party linear regress
 
 Read the [arXiv note](https://arxiv.org/abs/1901.09531) and watch the [primer](https://www.youtube.com/watch?v=O3NxvLC-5s4&list=PLlMMtlgw6qNjROoMNTBQjAcdx53kV50cS) at [Models, Inference & Algorithms](broadinstitute.org/mia) at the Broad Institute.
 
-We recently found that the approach in Section 2 to secure linear regression has been explored since at least 2005, c.f. (Secure Regression on Distributed Databases)[http://www2.stat.duke.edu/~jerry/Papers/jcgs05.pdf].
+We recently found that the approach in Section 2 to secure linear regression has been explored since at least 2005, c.f. [Secure Regression on Distributed Databases](http://www2.stat.duke.edu/~jerry/Papers/jcgs05.pdf).
 
 Run a [Python demo](https://github.com/jbloom22/DASH/blob/master/multiparty_linear_regression.ipynb) of the multi-party linear regression algorithm in Section 2.
 
